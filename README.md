@@ -63,10 +63,6 @@ man chmod - info par chmod
 
 chmod 700 fails1.txt
 
-chmod 400 fails1.txt
-
-chmod 600 fails1.txt
-
 nano fails1.txt izveidot kopiju
 
 cp fails1.txt fails3.txt - kopēt failu
@@ -74,5 +70,28 @@ cp fails1.txt fails3.txt - kopēt failu
 mv *.txt Music/ - pārvietot
 
 echo $PATH - 
+
+   26  create_in.sh 
+   29  PATH=$PATH:~/Mape
+   31  /home/user/create_in.sh
+   32  ./create_in.sh
+   33  nano create_in.sh
+   37  git clone https://github.com/ncyline/RTR105
+   39  ~/rtr105$  ls -l
+   40  ~/RTR105$ pwd
+   41  cd /home/use/RTR105/
+   44  cd /home/user/RTR105/
+   46  nano README.md 
+   47  nano git-upload
+   49  ~/RTR105$ history < history_20180918.txt
+   51  ~/RTR105$ history > history_20180918.txt
+   54  chmod 764 git-upload
+   56  git
+   69  python
+   70  ipython
+   71  idle 
+   73  history > history_20180918.txt
+   74  ./git-upload 20180918_15_30
+
 
 
