@@ -1,0 +1,73 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo -e "mkdir Mape\ncd Mape" > create_in.sh
+    4  ls
+    5  -l
+    6  ls -l
+    7  cat create_in.sh
+    8  create_in.sh
+    9  echo $PATH
+   10  ls -l
+   11  764 create_in.sh
+   12  chmod 764 create_in.sh
+   13  ls -l
+   14  create
+   15  create_in.sh
+   16  echo $PATH
+   17  pwd
+   18  PATH="/usr/local/anaconda3/bin:/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+   19  create
+   20  las
+   21  ls
+   22  echo $PATH
+   23  pwd
+   24  PATH="/usr/local/anaconda3/bin:/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/user"
+   25  echo $PATH
+   26  create_in.sh 
+   27  ls -l
+   28  echo $PATH
+   29  PATH=$PATH:~/Mape
+   30  echo $PATH
+   31  /home/user/create_in.sh
+   32  ./create_in.sh
+   33  nano create_in.sh
+   34  pwd
+   35  ls -l
+   36  git clone https://github.com
+   37  git clone https://github.com/ncyline/RTR105
+   38  ls -l
+   39  ~/rtr105$  ls -l
+   40  ~/RTR105$ pwd
+   41  cd /home/use/RTR105/
+   42  ls
+   43  ls -l
+   44  cd /home/user/RTR105/
+   45  pwd
+   46  nano README.md 
+   47  nano git-upload
+   48  ls -l
+   49  ~/RTR105$ history < history_20180918.txt
+   50  ls
+   51  ~/RTR105$ history > history_20180918.txt
+   52  ls
+   53  ls -l
+   54  chmod 764 git-upload
+   55  ls -l
+   56  git
+   57  ./git-upload
+   58  ./gitload 20180918_14_05
+   59  nano git-upload
+   60  ./gitload 20180918_14_05
+   61  ./git-upload 20180918_14_05
+   62  ./gitload 20180918_14_05
+   63  nano git-upload
+   64  ./git-upload 20180918_14_05
+   65  nano git-upload
+   66  ./git-upload 20180918_14_05
+   67  nano git-upload
+   68* ./git-upload 20180918_15_30
+   69  python
+   70  ipython
+   71  idle &
+   72  ls -l
+   73  history > history_20180918.txt
