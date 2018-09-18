@@ -72,3 +72,7 @@ nano fails1.txt izveidot kopiju
 cp fails1.txt fails3.txt - kopēt failu
 
 mv *.txt Music/ - pārvietot
+
+echo $PATH - 
+
+
