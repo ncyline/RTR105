@@ -1,0 +1,11 @@
+print("Before")
+for thing in [9, 41, 12, 3, 74, 15]:
+    print(thing)
+print("After")
+
+
+'''
+for i in [5, 4, 3, 2, 1]:
+    print(i)
+print("Blastoff!")
+'''
