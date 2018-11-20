@@ -72,26 +72,97 @@ mv *.txt Music/ - pārvietot
 echo $PATH - 
 
    26  create_in.sh 
+   
    29  PATH=$PATH:~/Mape
+   
    31  /home/user/create_in.sh
+   
    32  ./create_in.sh
+   
    33  nano create_in.sh
+   
    37  git clone https://github.com/ncyline/RTR105
+   
    39  ~/rtr105$  ls -l
+   
    40  ~/RTR105$ pwd
+   
    41  cd /home/use/RTR105/
+   
    44  cd /home/user/RTR105/
+   
    46  nano README.md 
+   
    47  nano git-upload
-   49  ~/RTR105$ history < history_20180918.txt
+ 
    51  ~/RTR105$ history > history_20180918.txt
+   
    54  chmod 764 git-upload
-   56  git
-   69  python
-   70  ipython
-   71  idle 
+   
    73  history > history_20180918.txt
+   
    74  ./git-upload 20180918_15_30
+import sys
+
+sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
+
+def f(x):
+
+    return sin(x)
+
+from numpy import sin, linspace
+
+x = linspace(0, 7, 71)
+
+y = f(x)
+
+delta_x = x[1] - x[0]
+
+from matplotlib import pyplot as plt
+
+plt.grid()
+
+plt.xlabel('x')
+
+plt.ylabel('f(x)')
+
+plt.title('Funkcija $sin(x)$')
+
+plt.plot(x, y, color = "#FF0000")
+
+#plt.legend(['$sin(x)$'])
+
+#plt.show()
+
+
+y_first_derivative = (f(x+delta_x) - f(x))/delta_x
+
+plt.plot(x, y_first_derivative, color = "#00FF00")
+
+#plt.legend(['$sin(x)$','$sin\'(x)$'])
+
+#plt.show()
+
+
+N = len(x)
+
+y_first_derivative_build_from_array = []
+
+for i in range(N-1):
+
+    temp = ( y[i+1] - y[i] ) / (delta_x)
+    
+    #temp = ( y[i+1] - y[i] ) / (x[i+1] - x[1])
+    
+    y_first_derivative_build_from_array.append(temp)
+    
+    #print(i, x[i],x[i+1], y[i], y[i+1],temp, y_first_derivative_build_from_array)
+
+plt.plot(x[0:N-1], y_first_derivative_build_from_array, color = "#0000FF")
+
+plt.legend(['$sin(x)$','$sin\'(x)$', '$sin\'(x) - build_from array$'])
+
+plt.show()
 
 
 
